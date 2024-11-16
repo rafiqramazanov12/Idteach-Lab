@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+.pricing_title{
+    font-size: 35px;
+    text-align: center;
+   margin: 20px 0;
+}
+.boxes{
+    width: 100%;
+
+    font-size: 0;
+    margin: 0 auto;
+    
+}
+
+.box{
+    width: 450px;
+    height: 500px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 18px;
+}
+i{
+    margin-top: 15px;
+    font-size: 35px;
+}
+.box h2{
+    font-size: 37px;
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.box p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+li{
+    list-style-type: none;
+    margin-top: 7px;
+}
+ul{
+    margin-top: 30px;
+}
+.shadow{
+    box-shadow: 0 0 4px;
+    border-radius: 10px;
+}
+.btn-one{
+    width: 130px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+text-align: center;
+margin: 20px;
+}
+.btn-two{
+    width: 130px;
+    height: 40px;
+  background-color: green;
+    border-radius: 20px;
+    color: white;
+text-align: center;
+margin: 20px;
+
+}
+.btn-three{
+    width: 130px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+text-align: center;
+margin: 20px;
+}
