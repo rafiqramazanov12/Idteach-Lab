@@ -8,36 +8,39 @@
 .pricing_title{
     font-size: 35px;
     text-align: center;
-   margin: 20px 0;
+    font-family: "Roboto", serif;
+    margin: 20px 0;
+
 }
-.boxes{
+.pricing_table_cards{
     width: 100%;
+ text-align: center;
 
-    font-size: 0;
-    margin: 0 auto;
-    
+
+
 }
-
-.box{
-    width: 450px;
-    height: 500px;
-    font-size: 16px;
-    display: inline-block;
+.pricing_table_card{
+    width: 300px;
+    height: 430px;
     text-align: center;
-    margin-left: 18px;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+
 }
 i{
-    margin-top: 15px;
-    font-size: 35px;
-}
-.box h2{
-    font-size: 37px;
-    font-family: "Roboto", serif;
-    font-weight: 900;
+    font-size: 40px;
     margin-top: 20px;
+
 }
-.box p{
-    font-size: 20px;
+.pricing_table_card p{
+    font-size: 17px;
+    margin-top: 18px;
+}
+.pricing_table_card h2{
+    font-size: 40px;
+    font-family: "Roboto",serif;
+    font-weight: 900;
     margin-top: 10px;
 }
 li{
@@ -45,37 +48,44 @@ li{
     margin-top: 7px;
 }
 ul{
+    margin-top: 15px;
+}
+.pricing_table_card_btn{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(227, 7, 66);
+    border-radius: 30px;
+    text-align: center;
     margin-top: 30px;
+    color: #fff;
+    font-weight: 700;
 }
-.shadow{
-    box-shadow: 0 0 4px;
-    border-radius: 10px;
-}
-.btn-one{
-    width: 130px;
+.pricing_table_card_btn_two{
+    background-color: green;
+    width: 120px;
     height: 40px;
-    background-color: red;
-    border-radius: 20px;
-    color: white;
-text-align: center;
-margin: 20px;
-}
-.btn-two{
-    width: 130px;
-    height: 40px;
-  background-color: green;
-    border-radius: 20px;
-    color: white;
-text-align: center;
-margin: 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-family: 700;
+    text-align: center;
+    margin-top: 30px;
 
 }
-.btn-three{
-    width: 130px;
-    height: 40px;
+
+.shadow{
+    box-shadow: 0 0 2px;
+    border-radius: 10px;
+    background-color: #f8f8fa;
+}
+.pricing_table_card_btn_three{
     background-color: blue;
-    border-radius: 20px;
-    color: white;
-text-align: center;
-margin: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-family: 700;
+    text-align: center;
+    margin-top: 30px;
+
+    
 }
