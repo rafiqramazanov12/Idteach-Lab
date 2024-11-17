@@ -5,52 +5,61 @@
 
 
 }
-.pricing_title{
+
+.pricing_title {
     font-size: 35px;
     text-align: center;
     font-family: "Roboto", serif;
     margin: 20px 0;
 
 }
-.pricing_table_cards{
+
+.pricing_table_cards {
     width: 100%;
- text-align: center;
+    text-align: center;
 
 
 
 }
-.pricing_table_card{
+
+.pricing_table_card {
     width: 300px;
     height: 430px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
-    vertical-align: top;
+
+
 
 }
-i{
+
+i {
     font-size: 40px;
     margin-top: 20px;
 
 }
-.pricing_table_card p{
+
+.pricing_table_card p {
     font-size: 17px;
     margin-top: 18px;
 }
-.pricing_table_card h2{
+
+.pricing_table_card h2 {
     font-size: 40px;
-    font-family: "Roboto",serif;
+    font-family: "Roboto", serif;
     font-weight: 900;
     margin-top: 10px;
 }
-li{
+
+li {
     list-style-type: none;
     margin-top: 7px;
 }
-ul{
+
+ul {
     margin-top: 15px;
 }
-.pricing_table_card_btn{
+
+.pricing_table_card_btn {
     width: 120px;
     height: 40px;
     background-color: rgb(227, 7, 66);
@@ -60,7 +69,8 @@ ul{
     color: #fff;
     font-weight: 700;
 }
-.pricing_table_card_btn_two{
+
+.pricing_table_card_btn_two {
     background-color: green;
     width: 120px;
     height: 40px;
@@ -72,12 +82,13 @@ ul{
 
 }
 
-.shadow{
+.shadow {
     box-shadow: 0 0 2px;
     border-radius: 10px;
     background-color: #f8f8fa;
 }
-.pricing_table_card_btn_three{
+
+.pricing_table_card_btn_three {
     background-color: blue;
     width: 120px;
     height: 40px;
@@ -87,5 +98,5 @@ ul{
     text-align: center;
     margin-top: 30px;
 
-    
+
 }
