@@ -43,8 +43,8 @@ i{
     font-weight: 900;
     margin-top: 10px;
 }
-li{
-    list-style-type: none;
+.pricing_table_card_menu_item{
+  list-style-type: none;
     margin-top: 7px;
 }
 ul{
