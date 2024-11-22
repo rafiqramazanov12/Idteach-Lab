@@ -24,20 +24,17 @@
     height: 430px;
     text-align: center;
     display: inline-block;
-
-
-
 }
 i{
     font-size: 40px;
     margin-top: 20px;
 
 }
-.pricing_table_card p{
+.pricing_table_card_note{
     font-size: 17px;
     margin-top: 18px;
 }
-.pricing_table_card h2{
+.pricing_table_card_title{
     font-size: 40px;
     font-family: "Roboto",serif;
     font-weight: 900;
@@ -47,7 +44,7 @@ i{
   list-style-type: none;
     margin-top: 7px;
 }
-ul{
+.pricing_table_card_menu{
     margin-top: 15px;
 }
 .pricing_table_card_btn{
