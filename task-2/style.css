@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Manrope;
+    font-family: "Manrope",serif;
 }
 
 li {
@@ -39,8 +39,6 @@ a {
 }
 
 .header_nav_menu_item {
-
-    font-family: Manrope;
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
@@ -52,14 +50,56 @@ a {
 }
 
 .header_singup {
-    width: 80px;
+    width: 100px;
     height: 40px;
     padding: 8px 16px 8px 16px;
     gap: 12px;
     border-radius: 4px;
     background-color: #1B9E4B;
     color: #fff;
+}
+.main_banner{
+margin-left: 106px;
+}
+.main_banner_info{
+display: flex;
+align-items: center;
+
+}
+.main_banner_info_first_child{
+    flex-direction: column;
+}
 
 
-
+.main_banner_info_first_subtitle {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 80.5px;
+    line-height: 60px;
+}
+.main_banner_info_subtitle h2:nth-child(2){
+    color: #A855F7;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+}
+.main_banner_info_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 52px;
+}
+.main_banner_info_Get_started{
+    width: 166px;
+    height:48px;
+    padding: 12px 40px 12px 40px;
+    border-radius: 4px ;
+    background-color: #1B9E4B;
+    color: #ffffff;
+}
+.main_banner_info_second_child img{
+    width: 674px;
+    height: 449px;
 }
