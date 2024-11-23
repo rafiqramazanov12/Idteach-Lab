@@ -59,7 +59,8 @@ a {
     color: #fff;
 }
 .main_banner{
-margin-left: 106px;
+    padding-inline: 109px;
+    margin: inline 109px;
 }
 .main_banner_info{
 display: flex;
