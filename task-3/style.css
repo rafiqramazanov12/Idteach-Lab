@@ -49,7 +49,14 @@ li {
     font-size: 19.14px;
     font-weight: 500;
     line-height: 16.71px;
+    transition-duration: 0.2s;
+  
     
+}
+.banner_nav_menu_item:hover{
+    border-bottom: 2px solid orange;
+
+   
 }
 
 .banner_nav_menu_item_link {
@@ -698,6 +705,12 @@ color: #4D4D4D;
     font-weight: 400;
     line-height: 20px;
     margin-top: 12px;
+
+}
+.footer_nav_menu_item:hover{
+   border-bottom: 2px solid orange;
+ 
+
 }
 
 .footer_nav_menu_item_link {
