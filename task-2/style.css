@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
     font-family: "Manrope",serif;
 }
 
@@ -57,6 +59,7 @@ a {
     border-radius: 4px;
     background-color: #1B9E4B;
     color: #fff;
+    border: none;
 }
 .main_banner{
     padding-inline: 109px;
@@ -100,6 +103,7 @@ line-height: 60px;
     border-radius: 4px ;
     background-color: #1B9E4B;
     color: #ffffff;
+    border: none;
 }
 .main_banner_info_second_child img{
     width: 674px;
