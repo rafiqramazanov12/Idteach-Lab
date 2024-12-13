@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  
+}
+body{
     font-family: "Inter", sans-serif;
 }
-
 .container {
     margin-inline: 100px;
     padding-inline: 100px;
@@ -340,7 +342,7 @@ i {
 
 }
 .secont_section_text_note{
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .help_container {
@@ -513,6 +515,7 @@ color: #4D4D4D;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
+    margin-top: 10px;
 
 
 }
@@ -522,6 +525,7 @@ color: #4D4D4D;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin-top: 8px;
 
 
 }
