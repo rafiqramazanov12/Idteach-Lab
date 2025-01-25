@@ -711,8 +711,11 @@ color: #4D4D4D;
     margin-top: 12px;
 
 }
-.footer_nav_menu_item:hover{
-   border-bottom: 2px solid orange;
+.footer_nav_menu_item:hover
+
+{
+  color: orange;
+  border-bottom: 2px solid orange;
  
 
 }

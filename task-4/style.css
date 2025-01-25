@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    padding-inline: 100px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.header_logo{
+    display: flex;
+}
+
+
+.header_logo{
+    gap: 5px;
+}
+.logo_avatar{
+    width: 36px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.navbar_menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.navbar_menu_list_link{
+    color: #000000;
+}
+.navbar_menu_list{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.header_btn{
+    width: 231px;
+    height:68px;
+    padding: 20px 35px 20px 35px;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px solid black;
+    opacity: 0px;
+    background-color: white;
+    margin-right: 99px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .navbar_menu{
+       display: none;
+     
+    }
+    .header{
+     
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .logo_avatar{
+ width: 23.61px;
+height: 23.61px;
+
+
+    }
+    .header_logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .container{
+        padding-inline: 0px;
+
+
+    }
+    .homburger_logo{
+        width: 24px;
+        height: 16px;
+
+        
+    }  
+}
+
+@media screen and (min-width:993px) {
+    .homburger_logo{
+        display: none;
+    }
+}
+.main{
+    padding-block: 50px;
+}
+
+.main_section_first_child_title{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    color: #000000;
+}
+.main_section_first_child_note{
+color: #000000;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+margin-top: 35px;
+margin-bottom: 35px;
+
+
+}
+.main_section_first_child_btn{
+    width: 264px;
+    height:68px;
+    gap: 10px;
+    border-radius: 14px;
+    background-color: #191A23;
+    color: white;
+ 
+}
+.main_section{
+    display: flex;
+    justify-content: space-between;
+}
+.main_section_second_child img{
+    width: 600.46px;
+    height: 515px;
+
+
+}
+
+
+
+
+
+
+
+
