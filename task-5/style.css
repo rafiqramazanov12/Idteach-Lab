@@ -67,12 +67,15 @@
     display: block;
 
 }
-
-.main_contanier_cart_item_header_icon {
-    rotate: 180deg;
-    height: 30px;
+.main_contanier_cart_item_header_btn{
     width: 30px;
+    height: 30px;
+}
+.active .icon{
+    rotate: 180deg;
 
 }
+
+
 
 
