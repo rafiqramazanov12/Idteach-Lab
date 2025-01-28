@@ -23,7 +23,6 @@
     color: white;            
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-
     background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)
 }
 .main_contanier_cart:hover{
@@ -51,7 +50,7 @@
     background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)
   }
 .main_contanier_cart_item_header:hover{
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; 
     color: #fff;
     text-decoration: none;
 }
@@ -65,6 +64,7 @@
 
 .active~.main_contanier_cart_item_desc {
     height: 50px;
+    display: block;
 
 }
 
@@ -76,17 +76,3 @@
 }
 
 
-
-
-
-.btn-grad {}
-.btn-grad {
-  
-   /* text-align: center; */
-  
-   /* display: block; */
- }
-
- .btn-grad:hover {
-  
- }
