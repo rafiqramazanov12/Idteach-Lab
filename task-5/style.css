@@ -71,6 +71,9 @@
     width: 30px;
     height: 30px;
 }
+.main_contanier_cart_item_desc_title{
+    display: none;
+}
 .active .icon{
     rotate: 180deg;
 
