@@ -74,11 +74,8 @@ body {
 .form_btn:hover {
     background-color: #003669;
 }
-.age {
-    display: block;
-    margin-top: 10px;
+#age {
     margin: 10px;
-    padding-bottom: 20px;
     overflow: hidden;
     line-height: 1.5;
     font-size: 23px;
