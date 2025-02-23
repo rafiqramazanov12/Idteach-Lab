@@ -31,12 +31,14 @@ const filterProducts = index => {
         showProducts(filtered);
     }
 };
+// bu yazılişı araşdıranda gördüm
 
 document.querySelector(".all_btn").addEventListener("click", () => filterProducts(0));
 document.querySelector(".electronics_btn").addEventListener("click", () => filterProducts(1));
 document.querySelector(".jewelry_btn").addEventListener("click", () => filterProducts(2));
 document.querySelector(".mens_clothing_btn").addEventListener("click", () => filterProducts(3));
 document.querySelector(".womens_clothing_btn").addEventListener("click", () => filterProducts(4));
+
 
 
 
