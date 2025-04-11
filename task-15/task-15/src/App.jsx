@@ -4,16 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Button from './components/buttons'
 import './components/buttons.css';
-// import '././components/'
 
 
 function App() {
 
   return (
     <>
-    <Button/>
-    
-     
+      <Button />
+
+
     </>
   )
 }
