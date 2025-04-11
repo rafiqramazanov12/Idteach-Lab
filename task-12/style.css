@@ -12,7 +12,7 @@ body {
   }
   .container {
     width: 90%;
-    max-width: 800px;
+    max-width: 900px;
     padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -22,7 +22,6 @@ body {
     font-size: 22px;
   }
   input, select {
-    width: calc(100% - 20px);
     padding: 8px;
     margin: 5px 0;
     border: 1px solid #ddd;
