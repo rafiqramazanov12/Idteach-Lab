@@ -7,10 +7,11 @@ const Slider = ({ allImg }) => {
   const [imgIndex, setIndex] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
-      allImg(prevIndex => (prevIndex < allImg.length - 1 ? prevIndex + 1 : 0))
-    }, 2000);
-    return () => clearInterval(interval)
+      setIndex(prevIndex => (prevIndex < allImg.length - 1 ? prevIndex + 1 : 0));
+    }, 3000);
+    return () => clearInterval(interval);
   }, [allImg.length]);
+  
 
   const nextBtn = () => {
     setIndex(prevIndex => prevIndex < allImg.length - 1 ? prevIndex + 1 : 0)
