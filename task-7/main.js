@@ -10,7 +10,6 @@ const favorites = [];
 const productList = document.getElementById("productList");
 const favoriteList = document.getElementById("favoriteList");
 
-// Məhsulları ekrana əlavə et
 products.forEach(product => {
   const div = createProductElement(product);
   productList.appendChild(div);
@@ -25,7 +24,6 @@ function createProductElement(product) {
     <p>${product.name}</p>
   `;
 
-  // Klik eventi
   div.addEventListener("click", () => toggleFavorite(product, div));
   return div;
 }
