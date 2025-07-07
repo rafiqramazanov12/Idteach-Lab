@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.section_title {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.section_products, .section_favorites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product.favorite {
+  background-color: rgb(105, 104, 104);
+  color: white;
+}
